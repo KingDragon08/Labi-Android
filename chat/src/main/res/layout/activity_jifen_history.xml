@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:gravity="center_horizontal">
+
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/game"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/game_jifen_game"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@color/yellow"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/jifen"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/game_jifen_jifen"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/jifen_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

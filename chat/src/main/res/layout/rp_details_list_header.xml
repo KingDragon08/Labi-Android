@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/money_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open_rp_top_resize"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size144px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_rp_red_packet_detail_avatar"
+                android:layout_width="@dimen/size60px"
+                android:layout_height="@dimen/size60px"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/size24px"
+                android:layout_marginRight="@dimen/size24px"
+                android:src="@drawable/rp_avatar" />
+
+            <TextView
+                android:id="@+id/tv_money_sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Max的红包"
+                android:textColor="@color/red_packet_display"
+                android:textSize="@dimen/font45px" />
+
+            <ImageView
+                android:id="@+id/iv_rp_red_packet_detail_lucky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/size24px"
+                android:layout_marginLeft="@dimen/size24px"
+                android:src="@drawable/rp_random_icon" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size18px"
+            android:layout_marginBottom="@dimen/size42px"
+            android:text="打赏你哒"
+            android:textColor="@color/red_packet_display"
+            android:textSize="@dimen/font36px" />
+
+        <TextView
+            android:id="@+id/tv_money_amount"
+            style="@style/ReceivedMoneyStyle"
+            android:layout_marginTop="@dimen/size60px"
+            android:text="￥"
+            android:textColor="@color/red_packet_display" />
+
+        <TextView
+            android:id="@+id/tv_money_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size18px"
+            android:layout_marginBottom="@dimen/size_red_packet_detail_space"
+            android:text="@string/money_detail_use"
+            android:textColor="@color/red_packet_display"
+            android:textSize="@dimen/font36px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size42px"
+        android:layout_marginTop="@dimen/size165px"
+        android:background="@color/money_bg_color" />
+
+    <LinearLayout
+        android:id="@+id/status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_money_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size48px"
+            android:layout_marginLeft="@dimen/size48px"
+            android:layout_marginTop="@dimen/size45px"
+            android:layout_marginBottom="@dimen/size45px"
+            android:text="@string/money_status_no_taken"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px" />
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_marginTop="@dimen/size24px"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

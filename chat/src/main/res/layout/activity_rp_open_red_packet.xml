@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingBottom="100dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginStart="@dimen/size144px"
+        android:layout_marginEnd="@dimen/size144px"
+        android:background="@mipmap/bonus_open">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_rp_open_red_packet_avatar"
+                    android:layout_width="@dimen/size72px"
+                    android:layout_height="@dimen/size72px"
+                    android:src="@drawable/ic_camera" />
+
+                <TextView
+                    android:id="@+id/tv_rp_open_red_packet_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="红豆红豆的红包"
+                    android:textColor="@color/red_packet_display"
+                    android:layout_marginStart="@dimen/size18px"
+                    android:layout_marginLeft="@dimen/size18px"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_rp_open_red_packet_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="恭喜发财，大吉大利"
+                android:textColor="@color/red_packet_display"
+                android:textSize="@dimen/font54px"
+                android:layout_marginTop="@dimen/size36px"/>
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/tickerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size36px"
+                android:text="0.00"
+                android:textColor="@color/red_packet_display"
+                android:textSize="50sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_rp_open_red_packet_open"
+            android:layout_width="@dimen/size_red_packet_open"
+            android:layout_height="@dimen/size_red_packet_open"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/size180px"
+            android:src="@drawable/open_rp" />
+
+        <TextView
+            android:id="@+id/tv_rp_open_red_packet_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="看看大家的手气"
+            android:clickable="true"
+            android:textColor="@color/red_packet_display"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/size60px"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_open_red_packet_close"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/size72px"
+        android:background="@drawable/bg_open_red_packet_close"
+        android:padding="18dp"
+        android:src="@drawable/rp_closed_yellow_icon" />
+</LinearLayout>

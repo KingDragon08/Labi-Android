@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c1c1c</color>
+    <color name="colorPrimaryDark">#1c1c1c</color>
+    <color name="colorAccent">#333333</color>
+    <color name="colorBottomNav">#4bc065</color>
+
+    <!--红包 -->
+    <color name="red">#fe5c5c</color>
+    <color name="red_trans">#88fe5c5c</color>
+    <color name="red_dark">#880000</color>
+    <color name="black">#3e3a39</color>
+
+    <color name="blue">#3b93e9</color>
+    <color name="rp_yellow">#ffd65d</color>
+    <color name="background">#f1f1f3</color>
+    <color name="transparent">#00000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="color_80c9c9c9">#80c9c9c9</color>
+    <color name="color_b7b7b7">#b7b7b7</color>
+    <color name="color_434343">#434343</color>
+    <color name="color_80b5b5b5">#80b5b5b5</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_46a2fa">#46a2fa</color>
+    <color name="color_040000">#040000</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_ff9893">#ff9893</color>
+    <color name="color_fed55a">#fed55a</color>
+    <color name="color_a0a0a0">#a0a0a0</color>
+    <color name="color_535353">#535353</color>
+
+    <!--红包颜色资源-->
+    <color name="money_red_light">#f14e46</color>
+    <color name="money_bg_color">#efefef</color>
+    <color name="money_white">#ffffff</color>
+    <color name="divider_color">#c7c7c7</color>
+    <color name="text_light_black">#666666</color>
+    <color name="text_light_grey">#9e9e9e</color>
+    <color name="bg_light_grey">#f9f9f9</color>
+    <color name="text_grey">#6e6e6e</color>
+    <color name="text_dark_grey">#bcbcbc</color>
+    <color name="text_black">#3e3e3e</color>
+    <color name="background_white">@color/money_white</color>
+    <color name="text_yellow">#FEE94E</color>
+    <color name="text_blue">#35b7f3</color>
+    <color name="msg_red">#a11710</color>
+    <color name="best_luck_yellow">#fabf40</color>
+    <color name="check_blue">#167ffc</color>
+    <color name="button_blue">#35B7F3</color>
+    <color name="text_unselected">@color/divider_color</color>
+    <color name="half_transparent">#e0000000</color>
+
+
+    <!--我的钱包  -->
+    <color name="title_bar_color">#157efb</color>
+    <color name="trans_title_bar_color">#88157efb</color>
+
+    <!--充值提现的选择器颜色-->
+    <color name="title_bar_dark_color">#0665d6</color>
+    <color name="color_087efb">#0865fb</color>
+
+
+    <color name="color_bg">#f1f1f3</color>
+
+    <color name="color_959595">#959595</color>
+    <color name="color_c9c9c9">#c9c9c9</color>
+    <color name="color_b5b5b5">#b5b5b5</color>
+    <color name="color_ededed">#ededed</color>
+    <color name="color_03a9f4">#03a9f4</color>
+    <color name="color_1bfd00">#1bfd00</color>
+    <color name="red_packet_display">#EECF99</color>
+    <color name="red_packet_background">#E54141</color>
+    <color name="red_packet_background_grey">#80FFFFFF</color>
+</resources>

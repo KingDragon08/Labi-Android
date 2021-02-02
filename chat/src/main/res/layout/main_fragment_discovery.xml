@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/momentsOptionItemView"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_moments"
+        app:title="朋友圈" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/chatRoomOptionItemView"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:layout_marginTop="14dp"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_chatroom"
+        app:title="聊天室" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/scanOptionItemView"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:layout_marginTop="14dp"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_scan_discovery"
+        app:title="扫一扫" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="245dp"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="bottom" >
+
+        <RelativeLayout
+            android:id="@+id/rlActionSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/border_bottom_white"
+                android:text="@string/setting_lang_title"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lang_cn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/border_bottom_white"
+                android:gravity="center"
+                android:text="@string/login_cn"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lang_en"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lang_cn"
+                android:background="@drawable/border_bottom_white"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:text="@string/login_en"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/lang_vn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lang_en"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/border_bottom_white"
+                android:gravity="center"
+                android:text="@string/login_vn"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/lang_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lang_vn"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:text="@string/setting_lang_cancel"
+                android:textColor="#ffffff" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

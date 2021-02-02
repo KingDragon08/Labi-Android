@@ -1,0 +1,599 @@
+<resources>
+    <string name="app_name">蜡笔牛牛</string>
+
+    <!--我-->
+    <string name="my_chat_account">账号:%1$s</string>
+    <string name="setting">设置</string>
+
+    <!--设置-->
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="exit">退出</string>
+
+    <!--关于-->
+    <string name="app_name_in_about">蜡笔即时通讯</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="complaint">投诉</string>
+    <string name="check_update">检查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用条款和隐私政策</string>
+
+    <!--发红包-->
+    <string name="jrmf_send_rp_title">红包</string>
+    <string name="_bribery_message">恭喜发财，大吉大利！</string>
+    <string name="btn_put">塞钱进红包</string>
+    <string name="jrmf_rp_default_name">809红包</string>
+    <string name="jrmf_rp_num">红包个数</string>
+    <string name="btn_pay">立即支付</string>
+    <string name="jrmf_ge">个</string>
+    <string name="_s_bribery">红包</string>
+    <string name="network_error">当前网络不佳，请稍后再试</string>
+    <string name="_de_dialog_item_message_delete">删除消息</string>
+    <string name="red_envelope_blessing">红包祝福语最多输入25个字噢～</string>
+    <string name="group_number">本群共%1$d人</string>
+    <string name="jrmf_rp_look_rp">查看红包</string>
+    <string name="jrmf_rp_receive_rp">领取红包</string>
+    <string name="jrmf_rp_all_amount">总金额</string>
+    <string name="jrmf_rp_amount">金额</string>
+    <string name="jrmf_rp_single_amount">单个金额</string>
+    <string name="jrmf_rp_luck_to_normal">当前为拼手气红包，改为普通红包</string>
+    <string name="jrmf_rp_normal_to_luck">当前为普通红包，改为拼手气红包</string>
+    <string name="jrmf_rp_min_num">至少需要设置1个红包</string>
+    <string name="jrmf_rp_max_num">一次最多可发%1$d个红包</string>
+    <string name="jrmf_rp_num_error">请输入正确个数</string>
+    <string name="jrmf_rp_amount_error">请输入正确金额</string>
+    <string name="jrmf_rp_min_amount">单个红包金额不可低于0.01元</string>
+    <string name="jrmf_rp_max_amount">红包总金额不可超过%1$s元</string>
+    <string name="jrmf_rp_single_max_amount">单个红包金额不可超过%1$s元</string>
+    <string name="jrmf_rp_no_card_max_amount">您尚未绑定银行卡，发红包的累计限额为%1$s元，请绑定银行卡后再发红包。</string>
+    <string name="jrmf_rp_balance">零钱（ 余额 ￥ %1$s ）</string>
+
+    <!--拆红包-->
+    <string name="jrmf_get_self_rp_and_done">你领取了自己的红包，你的红包已被领完</string>
+    <string name="jrmf_get_self_rp">你领取了自己的红包</string>
+    <string name="jrmf_get_other_rp">你领取了%1$s的红包</string>
+    <string name="jrmf_other_get_self_rp_done">%1$s领取了你的红包，你的红包已被领完</string>
+    <string name="jrmf_other_get_self_rp">%1$s领取了你的红包</string>
+    <string name="jrmf_rp_send_a_rp">发了一个红包</string>
+    <string name="jrmf_look_others">看看大家的手气</string>
+
+    <!--添加银行卡-->
+    <string name="card_name_tip">请用%1$s名下银行储蓄卡</string>
+    <string name="card_num_empty">银行卡号不能为空</string>
+    <string name="jrmf_input_card_num">银行卡号</string>
+    <string name="jrmf_input_card_num2">银行卡号</string>
+    <string name="jrmf_look_support_bank_cards">查看支持的银行卡</string>
+    <string name="jrmf_add_bank_card_title">添加银行卡</string>
+    <string name="jrmf_add_bank_card">+添加银行卡</string>
+    <string name="card_num_error">请输入正确银行卡号</string>
+    <string name="next_step_tip">点击下一步视为您同意《金融魔方用户协议》</string>
+    <string name="name_tip">请输入姓名</string>
+    <string name="name_error_tip">请输入正确的姓名</string>
+    <string name="idcard_tip">请输入正确的身份证号</string>
+    <string name="phone_tip">请输入正确的手机号</string>
+    <string name="phone_hint">请输入正确的银行预留手机号</string>
+    <string name="jrmf_input_phone_hint">银行预留手机号</string>
+    <string name="jrmf_input_phone_hint2">银行预留手机号</string>
+    <string name="verify_code_empty">请输入验证码</string>
+    <string name="verify_code_empty2">请输入验证码</string>
+    <string name="jrmf_verify_code_hint">请输入验证码</string>
+    <string name="verify_code_error">请输入正确验证码</string>
+    <string name="jrmf_wait_resend_code">%1$d秒后重新获取</string>
+    <string name="jrmf_wait_resend_code2">%1$d秒后重发</string>
+    <string name="jrmf_some_second">%1$d秒</string>
+    <string name="bind_card_suss">银行卡绑定成功</string>
+    <string name="user_protocol">用户协议</string>
+    <string name="jrmf_verify_card_fee">银行会从您卡上扣除1分钱用于验证您所填卡的真实有效性</string>
+    <string name="jrmf_check_code">验证短信验证码</string>
+    <string name="jrmf_send_sms_code">发送验证码</string>
+    <string name="jrmf_input_bank_card_num">请输入银行卡号</string>
+    <string name="jrmf_input_verify_code">请输入手机尾号%1$s接收的短信验证码</string>
+
+    <!--webview-->
+    <string name="user_protocol_title">金融魔方用户协议</string>
+    <string name="wallet_title">我的钱包</string>
+
+    <!--paytype-->
+    <string name="input_pwd">请输入支付密码</string>
+    <string name="forget_pwd">重置支付密码</string>
+    <string name="please_pay">请支付</string>
+    <string name="send_code">发送验证码</string>
+    <string name="re_send_code">重新发送验证码</string>
+    <string name="re_send">重新发送</string>
+    <string name="input_verify_code">请输入您%1$s手机号收到的验证码</string>
+    <string name="input_verify_code_title">请输入短信验证码</string>
+    <string name="add_card_pay">添加银行卡支付</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="jrmf_we_chat_pay">微信支付</string>
+    <string name="jrmf_rp_pay_quit">支付取消</string>
+    <string name="verify_code_suss">验证码发送成功</string>
+    <string name="pay_waiting">支付结果确认中</string>
+    <string name="pay_failure">支付失败</string>
+    <string name="jrmf_select_pay_style">选择付款方式</string>
+
+    <!--重置密码-->
+    <string name="jrmf_reset_pwd_title">重置密码</string>
+    <string name="jrmf_new_pwd">新密码</string>
+    <string name="jrmf_confirm_new_pwd">确认新密码</string>
+    <string name="jrmf_confirm_payment_pwd">确认支付密码</string>
+    <string name="update_pwd_succ">支付失败</string>
+    <string name="set_pwd_succ">支付密码设置成功</string>
+    <string name="jrmf_input_new_pwd">请输入6位新密码</string>
+    <string name="jrmf_input_new_pwd_confirm">请重新输入6位新支付密码</string>
+    <string name="jrmf_new_pwd_not_empty">确认新密码不能为空</string>
+    <string name="jrmf_username_empty">姓名不能为空</string>
+    <string name="jrmf_input_username_hint">请填写完整姓名</string>
+    <string name="jrmf_auth_tip">请填写证件号码完成身份验证</string>
+    <string name="jrmf_pwd_tip">支付密码</string>
+    <string name="jrmf_pwd_hint">密码为6位数字</string>
+    <string name="jrmf_confirm_pwd_hint">请再次输入支付密码</string>
+
+
+    <!--拆红包原生-->
+
+    <string name="other_rp_has_left">已领取%1$d/%2$d</string>
+    <string name="other_rp_no_left">已领取%1$d/%2$d，已被领完</string>
+    <string name="self_rp_has_left">已领取%1$d/%2$d，共%3$s/%4$s元</string>
+    <string name="self_rp_no_left">已领取%1$d/%2$d，已被领完</string>
+
+    <!--红包显示-->
+    <string name="no_rp">手慢了, 红包派完了</string>
+    <string name="no_rp_normal">该红包已被领取</string>
+    <string name="rp_expire">该红包已超过24小时。如已领取,可在"我的红包"中查看</string>
+
+
+    <!-- 我的钱包 -->
+    <string name="my_wallet_title">我的钱包</string>
+    <string name="jrmf_my_balance">我的零钱</string>
+    <string name="jrmf_some_zhang">%1$d张</string>
+
+    <!--我的红包-->
+    <string name="my_rp_title">我的红包</string>
+    <string name="luck_rp">拼手气红包</string>
+    <string name="normal_rp">普通红包</string>
+    <string name="trade_suc">交易成功</string>
+    <string name="who_rp">%1$s的红包</string>
+    <string name="has_grab_rp">您已领取过该红包</string>
+    <string name="jrmf_rp_send_num">发出红包%1$d个</string>
+    <string name="jrmf_money_yuan">%1$s元</string>
+    <string name="jrmf_money_yuan2">元</string>
+    <string name="jrmf_money_yuan3">%1$s元</string>
+    <string name="jrmf_rp_time_out">已过期</string>
+    <string name="jrmf_rp_receive_rate">已领完%1$s/%2$s</string>
+    <string name="jrmf_rp_receiving_rate">已领%1$s/%2$s</string>
+    <string name="jrmf_rp_receive">收到的红包</string>
+    <string name="jrmf_rp_receive2">收到的红包</string>
+    <string name="jrmf_rp_send">发出的红包</string>
+    <string name="jrmf_rp_look_history">查看我的红包记录</string>
+    <string name="jrmf_rp_all_receive">共收到</string>
+    <string name="jrmf_rp_all_send">共发出</string>
+    <string name="jrmf_rp_most_luck">手气最佳</string>
+
+    <!-- 银行卡 -->
+    <string name="my_bank_title">银行卡设置</string>
+    <string name="look_banks">查看支持银行</string>
+    <string name="name_error">请输入姓名</string>
+    <string name="jrmf_name_hint">请输入姓名</string>
+    <string name="id_card_error">请输入正确的身份证号</string>
+    <string name="phone_num_error">请输入正确的手机号</string>
+    <string name="card_id_error">银行卡编号错误</string>
+    <string name="send_code_suc">验证码发送成功</string>
+    <string name="req_code">请先获得验证码</string>
+    <string name="get_code">重新获取验证码</string>
+    <string name="input_code">请输入短信验证码</string>
+    <string name="input_code_error">请输入正确的验证码</string>
+    <string name="add_card_suc">银行卡添加成功</string>
+    <string name="pay_protocol"> 钱包快捷支付协议</string>
+    <string name="jrmf_card_list"> 银行卡列表</string>
+    <string name="jrmf_go_bind_card"> 去绑卡</string>
+
+    <!--收支明细 -->
+    <string name="trade_detail_title">交易记录</string>
+    <string name="update_pwd">修改支付密码</string>
+    <string name="jrmf_type">类型</string>
+    <string name="jrmf_time">时间</string>
+    <string name="jrmf_trade_order">交易单号</string>
+    <string name="jrmf_trade_all">全部</string>
+    <string name="jrmf_trade_in">收入</string>
+    <string name="jrmf_trade_out">支出</string>
+    <string name="jrmf_trade_detail">订单详情</string>
+
+    <!-- 提现 -->
+    <string name="deposit_tip">提示：使用无手续费提现时，如选择的支行信息与提现至的银行卡不一致，会导致提现失败。
+        提现结果会以短信形式发送到您的银行卡预留手机号上。</string>
+    <string name="deposit_fee_tip">提示：本次提现需要收取%1$s元手续费，提现结果会以短信形式发送到您的银行卡预留手机号上</string>
+    <string name="card_limit">该卡本次最多可提现%1$s元</string>
+    <string name="deposit_money">提现%1$s元</string>
+    <string name="select_bank_card">选择银行卡</string>
+    <string name="charge">手续费%1$s元</string>
+    <string name="jrmf_charge">手续费</string>
+    <string name="charge_tip_dialog">本次提现将从您所提金额内扣除%1$s元手续费</string>
+    <string name="get_deposit_over">提现金额超限</string>
+    <string name="get_deposit_low">您的金额不足以支付手续费</string>
+    <string name="jrmf_get_deposit">提现</string>
+    <string name="jrmf_get_deposit_free">无手续费提现</string>
+    <string name="jrmf_deposit_receive_time">到账时间</string>
+    <string name="jrmf_deposit_all">全部提现</string>
+    <string name="jrmf_deposit_amount_format_error">金额格式错误</string>
+    <string name="jrmf_deposit_success">提现成功</string>
+    <string name="jrmf_deposit_amount">提现金额</string>
+    <!-- 充值 -->
+    <string name="jrmf_recharge">充值</string>
+    <string name="recharge_money">充值%1$s元</string>
+    <string name="no_card_bind">您还没有绑定银行卡，请先添加银行卡</string>
+    <string name="input_recharge_amount_hint">请输入充值金额</string>
+    <string name="input_recharge_amount_toast">请输入充值金额</string>
+    <string name="recharge_fail">充值失败</string>
+    <string name="recharge_suc">充值成功</string>
+    <string name="card_des">尾号(%1$s)</string>
+    <string name="card_recharge_limit">该卡本次最多可充值%1$s元</string>
+    <string name="cardname_card_des">%1$s(%2$s)</string>
+    <string name="jrmf_account_balance">账户余额</string>
+    <string name="jrmf_pay_type_not_support">该付款方式不支持当前交易</string>
+    <string name="jrmf_recharge_amount">金额(元)</string>
+    <string name="jrmf_recharge_amount_over">充值金额超限</string>
+
+    <!--银行卡设置  -->
+    <string name="jrmf_bank_card_setting">银行卡设置</string>
+    <string name="del_card_des">删除尾号为%1$s的银行卡</string>
+    <string name="unbind_suc">解绑成功</string>
+    <string name="jrmf_unbind">解绑</string>
+
+    <!--安全设置-->
+    <string name="jrmf_security_setting">安全设置</string>
+    <string name="jrmf_input_pwd_check_identity">请输入支付密</string>
+    <string name="jrmf_set_pwd_tip">支付密码设置</string>
+
+
+    <!--账户信息-->
+
+    <string name="account_info_title">账户信息</string>
+    <string name="update_user_info">修改账户信息</string>
+    <string name="set_user_info">设置账户信息</string>
+    <string name="account_net_error">当前网络不佳，获取账户信息失败</string>
+    <string name="no_authen">未实名认证</string>
+    <string name="jrmf_username">姓名</string>
+    <string name="jrmf_real_username">真实姓名</string>
+    <string name="jrmf_IDCard_num">身份证号</string>
+    <string name="jrmf_IDCard">身份证</string>
+    <string name="jrmf_input_IDCard_num">请输入身份证号</string>
+    <string name="jrmf_input_IDCard_num2">请输入身份证号</string>
+    <string name="jrmf_input_IDCard_num_hint">请输入身份证号</string>
+
+    <!--找回支付密码-->
+    <string name="jrmf_set_pwd_title">设置支付密码</string>
+    <string name="get_pwd_title">找回支付密码</string>
+    <string name="jrmf_bank_card_ID_num">持卡人身份证号</string>
+    <string name="jrmf_phone_num">手机号</string>
+    <string name="jrmf_inupt_phone_num">请输入手机号</string>
+    <string name="jrmf_verify_code">验证码</string>
+
+    <!--身份认证-->
+    <string name="jrmf_auth_title">实名认证</string>
+    <string name="update_userinfo_suc">修改成功</string>
+    <string name="jrmf_quit_auth">您确定放弃实名认证吗？</string>
+    <string name="jrmf_not_abandon">不放弃</string>
+    <string name="jrmf_abandon">放弃</string>
+
+    <!--密码校验-->
+    <string name="jrmf_pwd_check">密码校验</string>
+    <string name="pwd_error">支付密码错误</string>
+
+    <!--找回支付密码-->
+    <string name="set_pwd_error">请输入6位支付密码</string>
+    <string name="pwd_not_same">两次密码输入不一致</string>
+    <string name="set_pwd_suc">支付密码设置成功</string>
+    <string name="jrmf_update_pwd_suc">密码修改成功</string>
+    <string name="jrmf_first_get_verify_code">请先获取验证码</string>
+
+    <!--网络-->
+    <string name="net_error_l">当前网络不佳,请稍后再试</string>
+    <string name="net_weekly">亲,您的网络不给力噢~</string>
+    <string name="jrmf_load_fail">加载失败，点击重试</string>
+
+    <!--选择支行-->
+    <string name="no_city">没有与之对应的城市</string>
+    <string name="no_branch">没有与之对应的支行,请您手动输入支行</string>
+    <string name="no_sel_province">请选择省</string>
+    <string name="no_sel_city">请选择市</string>
+    <string name="no_sel_branch">请选择支行</string>
+    <string name="no_input_branch">请输入支行</string>
+    <string name="no_input_amount">请输入提现金额</string>
+    <string name="no_input_amount_toast">请输入提现金额</string>
+    <string name="input_amount_error">请输入正确的提现金额</string>
+    <string name="jrmf_select_province">选择省</string>
+    <string name="jrmf_please_select_province">请先选择省</string>
+    <string name="jrmf_select_city">选择市</string>
+    <string name="jrmf_please_select_city">请先选择市</string>
+    <string name="jrmf_select_sub_branch">选择支行</string>
+    <string name="jrmf_input_sub_branch">输入支行</string>
+    <string name="jrmf_input_sub_branch_hint">请输入支行</string>
+
+
+    <string name="jrmf_not_support_emoji">不支持输入Emoji表情符号</string>
+    <string name="to_buttom">到底了噢～</string>
+    <string name="jrmf_next">下一步</string>
+    <string name="jrmf_confirm">确定</string>
+    <string name="jrmf_quit">取消</string>
+    <string name="jrmf_done">完成</string>
+    <string name="jrmf_retry">重试</string>
+    <string name="jrmf_tip">提示</string>
+    <string name="jrmf_forget_pwd">忘记密码</string>
+    <string name="jrmf_submit">提交</string>
+    <string name="jrmf_confirm_submit">确认提交</string>
+    <string name="jrmf_confirm_submit2">确认提交</string>
+    <string name="jrmf_not_data">暂无数据</string>
+    <string name="jrmf_unbinding">解绑中...</string>
+    <string name="loading">加载中...</string>
+    <string name="waiting">请稍后...</string>
+
+
+    <!--红包相关-->
+    <string name="money_amount">金额</string>
+    <string name="money_unit">元</string>
+    <string name="count_unit">个</string>
+    <string name="hint_money_count">填写个数</string>
+    <string name="hint_money_amount">填写金额</string>
+    <string name="btn_put_money">塞钱进红包</string>
+    <string name="greetings_hint">打赏你哒!</string>
+    <string name="send_money_title">发红包</string>
+    <string name="dialog_title_pay">支付</string>
+    <string name="red_money">红包</string>
+    <string name="small_change">零钱</string>
+    <string name="jd_pay">京东支付-%1$s(尾号%2$s)</string>
+    <string name="input_pay_pwd">请输入支付密码</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_know">知道了</string>
+    <string name="check_money">查看红包</string>
+    <!--绑定银行卡-->
+    <string name="pay_bank_card">支付银行卡</string>
+    <string name="complete_card_information">完善卡信息</string>
+    <string name="bank_card_number">银行卡号</string>
+    <string name="real_name">真实姓名</string>
+    <string name="id_card">身份证号</string>
+    <string name="phone_number">手机号码</string>
+    <string name="operation_user_agreement">该操作代表我同意《凡信用户服务协议》</string>
+    <string name="operation_tpy_agreement">我愿意免费投保太平洋保险《个人账户资金损失保险》，保险费用由凡信承担</string>
+    <string name="title_amount_agreement">个人账户资金损失保险</string>
+    <string name="jd_pay_agreement_hint">银行卡付款业务由京东支付支持</string>
+    <string name="insurance_agreement_hint">因账户被盗导致的资金损失由太平洋保险提供赔付保障</string>
+    <string name="edit_bankcard_hint">请输入您本人的银行卡卡号</string>
+    <string name="edit_card_name_hint">持卡人姓名</string>
+    <string name="edit_id_card_number_hint">请输入18位的身份证号码</string>
+    <string name="edit_phone_number_hint">银行预留手机号</string>
+    <string name="btn_next_step">下一步</string>
+    <string name="ed_search_word">请输入关键词</string>
+    <string name="error_is_bankcard_number">银行卡号不正确</string>
+    <string name="error_is_phone_number">手机号不正确</string>
+    <string name="error_is_id_card_number">身份证号不正确</string>
+    <string name="error_name_isnull">姓名不能为空</string>
+
+    <string name="tv_not_receive_message">收不到手机验证码?</string>
+    <string name="tv_password_hint_one">请输入6位数字支付密码(1/2)</string>
+    <string name="tv_password_hint_two">请再次输入6位数字支付密码(2/2)</string>
+    <string name="str_me_agreement">我同意</string>
+    <string name="str_your_withdraw_cash_card">您的提现银行卡信息</string>
+    <string name="str_add_bank_hint">完善银行卡信息，以便提现更快捷到账</string>
+    <string name="str_select_province">选择省</string>
+    <string name="str_select_city">选择市</string>
+    <string name="str_open_bank_name">开户行名称</string>
+    <string name="two_password_not">两次密码输入不一致，请重新输入</string>
+
+    <string name="common_loading_message">正在加载中...</string>
+    <string name="common_empty_msg">抱歉，暂未获取到数据!\n请点击屏幕重试~</string>
+    <string name="common_error_msg">抱歉，系统出错了!\n请点击屏幕重试~</string>
+    <string name="common_no_network_msg">暂未连接上网络!\n请连接后点击屏幕重试~</string>
+    <string name="btn_str_send_sms_code">发送验证码</string>
+    <string name="input_money_amount">请输入红包金额</string>
+    <string name="input_money_limited_minimum">单个红包金额不能少于0.01元</string>
+    <string name="input_money_limited">单个红包金额不能超过%1$s元</string>
+    <string name="small_change_balance">剩余%1$s元</string>
+    <string name="choose_pay_type_title">选择支付方式</string>
+    <string name="check_money_records">查看我的红包记录</string>
+    <string name="my_money_records">我的红包记录</string>
+    <string name="my_money">我的红包</string>
+    <string name="money_status_no_taken">1个红包共%1$s元，等待对方领取</string>
+    <string name="money_status_taken">1个红包共%1$s元，已被对方领取</string>
+    <string name="money_status_expired">超过1天未被领取，金额%1$s元已退至您的零钱</string>
+    <string name="load_more_end">没有更多了</string>
+    <string name="money_record_title">收到的红包</string>
+    <string name="input_money_zero">红包金额不能为0</string>
+    <string name="default_money_greeting">恭喜发财，大吉大利！</string>
+    <string name="no_network_conected">未连接到网络，请稍后重试</string>
+    <string name="name_str_format_received">%1$s共收到</string>
+    <string name="name_str_format_send">%1$s共发出</string>
+    <string name="btn_str_resend">重新获取</string>
+    <string name="str_format_send_sms">已发送到尾号%1$s的手机上</string>
+    <string name="str_send_sms_code">验证码已发送</string>
+    <string name="money_detail_nickname">%1$s的红包</string>
+    <string name="money_detail_money_unit">%1$s元</string>
+    <string name="detail_money_sign">￥%1$s</string>
+    <string name="btn_text_open_money">拆红包</string>
+    <string name="send_you_money">给你发了个红包</string>
+    <string name="money_expired_str">超过1天未领取，红包已过期</string>
+    <string name="jd_pay_title">京东支付</string>
+    <string name="money_qa_title">帮助</string>
+    <string name="forget_pwd_title">找回密码</string>
+    <string name="btn_str_forget_pwd">忘记密码？</string>
+    <string name="loading_msg">加载中...</string>
+    <string name="title_small_change">零钱</string>
+    <string name="title_add_bankcard">添加银行卡</string>
+    <string name="title_set_pay_pwd">设置支付密码</string>
+    <string name="title_forget_pay_pwd">忘记支付密码</string>
+    <string name="title_factory_agreement">服务协议</string>
+    <string name="title_common_problem">常见问题</string>
+    <string name="title_close">关闭</string>
+    <string name="money_detail_use">已存入零钱，可用于发红包或提现</string>
+    <string name="btn_cancel">取消</string>
+    <string name="str_input_sms_code">请输入短信验证码</string>
+    <string name="go_real_name">去实名</string>
+    <string name="set_pay_password">设置支付密码</string>
+    <string name="set_pay_pwd_for_safe">为了账户安全，请设置支付密码</string>
+    <string name="dialog_title_tips">提示</string>
+    <string name="server_time_out">服务器太忙或网络延迟</string>
+    <string name="server_response_error">服务器响应错误</string>
+    <string name="group_money_count">红包个数</string>
+    <string name="group_money_total">总金额</string>
+    <string name="group_money_every">单个金额</string>
+    <string name="group_member_count">本群共%1$s人</string>
+    <string name="tip_money_count_zero">请输入红包个数</string>
+    <string name="tip_money_count_limit">一次最多发100个红包</string>
+    <string name="group_rule_tips_random">当前为拼手气红包，</string>
+    <string name="group_rule_tips_normal">当前为普通红包，</string>
+    <string name="group_change_normal">改为普通红包</string>
+    <string name="group_change_random">改为拼手气红包</string>
+    <string name="best_luck">手气最佳</string>
+    <string name="check_lucky">看看大家的手气</string>
+    <string name="title_random_money">发了一个红包，金额随机</string>
+    <string name="title_normal_money">给你发了个红包</string>
+    <string name="money_is_out">手慢了，红包派完了</string>
+    <string name="money_is_out_avg">该红包已被领取</string>
+    <string name="group_money_available_sender">已领取%1$s/%2$s个，共%3$s/%4$s元</string>
+    <string name="group_money_available_receiver">领取%1$s/%2$s个</string>
+    <string name="group_money_unavailable_rand_sender">%1$s个红包共%2$s元，%3$s被抢光</string>
+    <string name="group_money_unavailable_rand_receiver">%1$s个红包，%2$s被抢光</string>
+    <string name="group_money_unavailable_avg_sender">%1$s个红包共%2$s元</string>
+    <string name="group_money_unavailable_avg_receiver">%1$s个红包</string>
+    <string name="group_money_expired">%1$s个红包共%2$s元，红包已过期</string>
+    <string name="money_username_format">%1$s的红包</string>
+    <string name="send_money_bottom_text">未领取的红包，将于24小时后发起退款</string>
+    <string name="retry_str">"%1$s 秒后重试"</string>
+    <string name="my_change">我的零钱-余额%1$s元</string>
+    <string name="str_my_change">我的零钱</string>
+    <string name="change_withdraw">提现</string>
+    <string name="change_detail">零钱明细</string>
+    <string name="change_password">管理零钱支付密码</string>
+    <string name="withdraw_bankcard">到账银行卡</string>
+    <string name="withdraw_amount">提现金额</string>
+    <string name="change_withdraw_all">全部提现</string>
+    <string name="withdraw_change_balance">零钱余额￥%1$s，</string>
+    <string name="captcha_send_phone">验证码已发送至手机%1$s</string>
+    <string name="add_bankcard">添加银行卡付款</string>
+    <string name="pay_no_pwd">本次交易免密码</string>
+    <string name="input_change_pwd">请输入零钱支付密码</string>
+    <string name="input_sms_code">请输入您%1$s手机号收到的验证码</string>
+    <string name="forget_pay_pwd">忘记支付密码?</string>
+    <string name="resend_sms_code">重新获取</string>
+    <string name="before_tomorrow_24_hour_to_account">预计明天24点前到账</string>
+    <string name="withdraw_bankcard_name">%1$s(%2$s)</string>
+    <string name="change_balance_insufficient">(余额不足)</string>
+    <string name="id_card_digit">0123456789X</string>
+    <!--提现-->
+    <string name="str_withdraw">提现</string>
+    <string name="str_forget_pay_pwd">忘记支付密码?</string>
+    <string name="choose_province_title">选择省份</string>
+    <string name="choose_city_title">选择城市</string>
+    <string name="choose_bank_branch_title">选择支行</string>
+    <string name="choose_province_plz">请先选择一个省份</string>
+    <string name="choose_city_plz">请先选择一个城市</string>
+    <string name="choose_bank_branch_name_plz">请先选择一个支行名字</string>
+    <string name="msg_phone_hint">银行预留手机号是您在办理该银行卡时所填的手机号。\n没有预留、已停用或忘记手机号码，请拨打银行客服电话更新处理。</string>
+    <string name="msg_no_receive_captcha_hint">短信验证码已发送至银行预留手机\n如未收到：\n1.请确认当时使用的号码是否为银行预留手机号。\n2.请检查短信是否被安全软件拦截。</string>
+    <string name="msg_you_are_exit">是否确定退出?</string>
+    <string name="give_up_recover_pwd">放弃找回密码?</string>
+    <string name="give_up_add_bankcard">放弃银行卡添加吗?</string>
+    <string name="give_up_set_pay_pwd">放弃支付密码设置吗?</string>
+    <string name="document_recover_pwd">请重新验证银行卡以找回密码</string>
+    <string name="document_add_bankcard">添加一张银行储蓄卡</string>
+    <string name="document_add_bankcard_verify_identity">添加一张银行储蓄卡以验证身份</string>
+    <string name="document_add_pay_bankcard">添加一张可用于支付的银行储蓄卡</string>
+    <string name="str_set_psd_success">设置密码成功</string>
+    <string name="input_sms_captcha">输入短信验证码</string>
+    <string name="title_change_withdraw">零钱提现</string>
+    <string name="withdraw_money_not_null">提现金额不能为空</string>
+    <string name="withdraw_money_not_zero">提现金额不能为零</string>
+    <string name="withdraw_money_not_max_change">提现金额不能大于零钱余额</string>
+    <string name="withdraw_money_not_max_five_thousand">提现金额单笔不能超过5000</string>
+    <string name="msg_withdraw_success">提现申请已受理</string>
+    <string name="msg_captcha_has_sent">验证码已发送</string>
+    <string name="money_received">收到红包</string>
+    <string name="money_send">发出红包</string>
+    <string name="best_count">手气最佳</string>
+    <string name="money_received_text">收到的红包</string>
+    <string name="money_send_text">发出的红包</string>
+    <string name="money_record_status_all">已领完%1$s/%2$s个</string>
+    <string name="money_record_status">已领取%1$s/%2$s个</string>
+    <string name="hint_title">提示</string>
+    <string name="limit_hint_title">支付超限</string>
+    <string name="single_limit_msg">单日红包发出金额超限，剩余额度%1$s元，请修改红包金额。</string>
+    <string name="jd_limit_msg">零钱不足。%1$s尾号%2$s京东支付今日剩余额度%3$s元，请修改红包金额。</string>
+    <string name="single_out_msg">单日红包发出金额已达上限。</string>
+    <string name="sms_error_title">验证码输入错误</string>
+    <string name="sms_error_msg">重新输入，或者等倒计时结束后重新获取一个再试。</string>
+    <string name="change_limit_msg">为了你的账户安全，需要通过添加一张银行卡验证你的身份信息。</string>
+    <string name="withdraw_not_psd_msg">为了你的账户安全，需要通过一张银行卡验证你的身份信息。</string>
+    <string name="btn_retry">重试</string>
+    <string name="change_default">￥0.00</string>
+    <string name="msg_error_page_hint">糟糕，好像哪里出了点问题！</string>
+    <string name="msg_error_retry">点此重试</string>
+    <string name="error_not_net_connect">未连接到网络,请稍后重试</string>
+    <string name="name">168 Club</string>
+    <string name="slogan">无封号牛牛</string>
+
+    <!--游戏-->
+    <string name="login">登 录</string>
+    <string name="login_phone">登录ID</string>
+    <string name="login_password">密码</string>
+    <string name="login_cn">中文</string>
+    <string name="login_en">English</string>
+    <string name="login_vn">Malaysia</string>
+    <string name="login_register">注册</string>
+    <string name="login_tips">账户密码不对</string>
+    <string name="login_process">加载中...</string>
+    <string name="register_repeat_password">请再次输入密码</string>
+    <string name="register_invite_code">邀请码(必填)</string>
+    <string name="register_cancel">取消</string>
+    <string name="register_phone_error">账号必须>6位</string>
+    <string name="register_password_error">密码必须>4位</string>
+    <string name="register_repeat_password_error">两次密码不一致</string>
+    <string name="register_success">注册成功</string>
+    <string name="main_club">主页</string>
+    <string name="main_me">个人档案</string>
+    <string name="main_setting">设置</string>
+    <string name="game_jifen">蜡笔积分</string>
+    <string name="game_bonus">蜡笔礼包积分</string>
+    <string name="game_ID">登录ID</string>
+    <string name="game_agent_ID">介绍人ID</string>
+    <string name="game_phone">电话号码</string>
+    <string name="game_email">电子邮箱</string>
+    <string name="game_share_code">邀请码</string>
+    <string name="edit_name">修改昵称</string>
+    <string name="edit_mobile">修改手机号</string>
+    <string name="edit_email">修改邮箱</string>
+    <string name="setting_password">修改密码</string>
+    <string name="setting_feedback">帮助与反馈</string>
+    <string name="setting_lang">语言</string>
+    <string name="setting_silent">静音模式</string>
+    <string name="setting_version">当前版本</string>
+    <string name="setting_jifen">积分记录</string>
+    <string name="setting_bank">绑定银行卡</string>
+    <string name="setting_cur_lang">简体中文</string>
+    <string name="setting_lang_title">选择语言</string>
+    <string name="setting_lang_cancel">取消</string>
+    <string name="setting_old_psw">请输入原密码</string>
+    <string name="setting_new_psw">请输入新密码</string>
+    <string name="setting_confirm_new_psw">请再次输入新密码</string>
+    <string name="setting_submit">提交</string>
+    <string name="setting_logout">退出登录</string>
+    <string name="gameme_charge">💰 充值</string>
+    <string name="gameme_excharge">💳 提款</string>
+    <string name="gameme_trans">转积分</string>
+    <string name="gameme_refresh">刷新</string>
+    <string name="gameme_refresh_success">刷新成功</string>
+    <string name="gameme_charge_hint">输入金额</string>
+    <string name="card">银行卡号</string>
+    <string name="bank">银行名称</string>
+    <string name="game_banker">庄名称</string>
+    <string name="game_start_time">游戏开始时间</string>
+    <string name="game_room_id">房间ID</string>
+    <string name="game_bonus_id">红包ID</string>
+    <string name="game_id">游戏ID</string>
+    <string name="game_banker_bonus">庄抢包</string>
+    <string name="game_banker_win">庄输赢</string>
+    <string name="game_bet">下注</string>
+    <string name="game_bet_bonus">抢包</string>
+    <string name="game_bet_type">下注类型</string>
+    <string name="game_bet_user_name">用户名</string>
+    <string name="game_bet_win">输赢</string>
+    <string name="game_jifen_game">游戏</string>
+    <string name="game_jifen_jifen">积分</string>
+    <string name="online_charge">在线充值</string>
+</resources>

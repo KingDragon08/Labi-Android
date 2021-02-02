@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Labi Club</string>
+
+    <!--我-->
+    <string name="my_chat_account">账号:%1$s</string>
+    <string name="setting">设置</string>
+
+    <!--设置-->
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="exit">退出登录</string>
+
+    <!--关于-->
+    <string name="app_name_in_about">野火即时通讯</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="complaint">投诉</string>
+    <string name="check_update">检查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用条款和隐私政策</string>
+    <string name="name">168 Club</string>
+    <string name="slogan">无封号牛牛</string>
+
+    <!--游戏-->
+    <string name="login">Sign in</string>
+    <string name="login_phone">Account</string>
+    <string name="login_password">password</string>
+    <string name="login_cn">中文</string>
+    <string name="login_en">English</string>
+    <string name="login_vn">Malaysia</string>
+    <string name="login_register">Register</string>
+    <string name="login_tips">Wrong account password</string>
+    <string name="login_process">Process...</string>
+    <string name="register_repeat_password">password double check</string>
+    <string name="register_invite_code">Invite Code (Required)</string>
+    <string name="register_cancel">Back</string>
+    <string name="register_phone_error">Account length must be > 6 digits</string>
+    <string name="register_password_error">Password length must be > 4 bits</string>
+    <string name="register_repeat_password_error">The two passwords do not match</string>
+    <string name="register_success">Success</string>
+    <string name="main_club">Club</string>
+    <string name="main_me">Me</string>
+    <string name="main_setting">Setting</string>
+    <string name="game_jifen">Game points</string>
+    <string name="game_bonus">Bonus</string>
+    <string name="game_ID">Login ID</string>
+    <string name="game_agent_ID">Invite ID</string>
+    <string name="game_phone">Mobile Phone</string>
+    <string name="game_email">Email</string>
+    <string name="game_share_code">Share Code</string>
+    <string name="edit_name">Edit nick name</string>
+    <string name="edit_mobile">Edit mobile</string>
+    <string name="edit_email">Edit email</string>
+    <string name="setting_password">Edit password</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_lang">Language</string>
+    <string name="setting_silent">Slient Model</string>
+    <string name="setting_version">Version</string>
+    <string name="setting_jifen">Integral record</string>
+    <string name="setting_bank">Binding bank card</string>
+    <string name="setting_cur_lang">English</string>
+    <string name="setting_lang_title">Choose language</string>
+    <string name="setting_lang_cancel">Cancel</string>
+    <string name="setting_old_psw">Please enter the original password</string>
+    <string name="setting_new_psw">Please enter a new password</string>
+    <string name="setting_confirm_new_psw">Please input the new password again</string>
+    <string name="setting_submit">Submit</string>
+    <string name="setting_logout">Logout</string>
+    <string name="gameme_charge">💰 Charge</string>
+    <string name="gameme_excharge">💳 Withdraw</string>
+    <string name="gameme_trans">Trans</string>
+    <string name="gameme_refresh">Refresh</string>
+    <string name="gameme_refresh_success">success</string>
+    <string name="gameme_charge_hint">Enter the amount</string>
+    <string name="card">Card</string>
+    <string name="bank">Bank name</string>
+    <string name="real_name">Name of cardholder</string>
+    <string name="game_banker">Banker</string>
+    <string name="game_start_time">Game time</string>
+    <string name="game_room_id">Room ID</string>
+    <string name="game_bonus_id">Bonus ID</string>
+    <string name="game_id">Game ID</string>
+    <string name="game_banker_bonus">Banker Bonus</string>
+    <string name="game_banker_win">Banker Wind</string>
+    <string name="game_bet">Bet</string>
+    <string name="game_bet_bonus">Bonus</string>
+    <string name="game_bet_type">Bet Type</string>
+    <string name="game_bet_user_name">Username</string>
+    <string name="game_bet_win">Win</string>
+    <string name="game_jifen_game">game</string>
+    <string name="game_jifen_jifen">integral</string>
+    <string name="online_charge">Online charge</string>
+</resources>

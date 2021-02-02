@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/bri_bg"
+        android:layout_width="110dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/bonus_item"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/bonus_item"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_bri_mess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            tools:text="恭喜发财fjajfklafkljfkjklafkfkjlakljafkd" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_bri_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center|left"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            tools:text="领取红包" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_bri_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center|left"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            android:text="809红包" />
+    </RelativeLayout>
+</FrameLayout>

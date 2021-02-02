@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="bottom" >
+
+        <RelativeLayout
+            android:id="@+id/rlActionSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/border_bottom_white"
+                android:text="查询历史游戏"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+            <EditText
+                android:id="@+id/game_id"
+                android:textColorHint="@color/hint"
+                android:hint="游戏ID"
+                android:textColor="@color/white"
+                android:background="@drawable/border_bottom_white"
+                android:layout_below="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/find"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/game_id"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:text="查询"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

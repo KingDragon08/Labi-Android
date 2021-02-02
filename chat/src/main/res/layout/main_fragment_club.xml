@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@mipmap/txt_home"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+    <cn.wildfire.chat.app.main.CycleViewPager
+        android:id="@+id/cycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/gray"
+        />
+    <ListView
+        android:id="@+id/game_list"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:listSelector="@android:color/transparent"
+        android:divider="@null"
+        android:layout_alignParentTop="true" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/club"
+        android:icon="@drawable/bottom_club_menu_selector"
+        android:title="@string/main_club" />
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/bottom_me_menu_selector"
+        android:title="@string/main_me" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/bottom_setting_menu_selector"
+        android:title="@string/main_setting" />
+
+</menu>

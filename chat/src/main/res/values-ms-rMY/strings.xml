@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蜡笔牛牛</string>
+    <!--我-->
+    <string name="my_chat_account">账号:%1$s</string>
+    <string name="setting">设置</string>
+
+    <!--设置-->
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="exit">退出登录</string>
+
+    <!--关于-->
+    <string name="app_name_in_about">蜡笔即时通讯</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="complaint">投诉</string>
+    <string name="check_update">检查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用条款和隐私政策</string>
+    <string name="name">Labi Club</string>
+    <string name="slogan">无封号牛牛</string>
+
+    <!--游戏-->
+    <string name="login">Daftar masuk</string>
+    <string name="login_phone">Sila masukkan nombor akaun</string>
+    <string name="login_password">Sila masukkan kata laluan</string>
+    <string name="login_cn">中文</string>
+    <string name="login_en">English</string>
+    <string name="login_vn">Malaysia</string>
+    <string name="login_register">daftar</string>
+    <string name="login_tips">Katalaluan akaun salah</string>
+    <string name="login_process">Memuatkan...</string>
+    <string name="register_repeat_password">Sila masukkan kata laluan lagi</string>
+    <string name="register_invite_code">Kod jemputan (diperlukan)</string>
+    <string name="register_cancel">batalkan</string>
+    <string name="register_phone_error">Nombor akaun mesti lebih dari 6 digit</string>
+    <string name="register_password_error">Katalaluan mesti > 4 digit</string>
+    <string name="register_repeat_password_error">Dua kata laluan tidak konsisten</string>
+    <string name="register_success">log masuk berjaya</string>
+    <string name="main_club">kelab</string>
+    <string name="main_me">saya</string>
+    <string name="main_setting">tetapkan</string>
+    <string name="game_jifen">Titik permainan</string>
+    <string name="game_bonus">Imbangan sampul merah</string>
+    <string name="game_ID">ID Login</string>
+    <string name="game_agent_ID">ID Pengenalan</string>
+    <string name="game_phone">nombor telefon</string>
+    <string name="game_email">kotak mel</string>
+    <string name="game_share_code">Kod jemputan</string>
+    <string name="edit_name">Ubah gelaran</string>
+    <string name="edit_mobile">Ubah nombor telefon bimbit</string>
+    <string name="edit_email">Ubah kotak mel</string>
+    <string name="setting_password">Ubah Katalaluan</string>
+    <string name="setting_feedback">Bantuan dan balas balik</string>
+    <string name="setting_lang">bahasa</string>
+    <string name="setting_silent">mod tenang</string>
+    <string name="setting_version">versi semasa</string>
+    <string name="setting_jifen">Rekod titik</string>
+    <string name="setting_bank">Kad bank yang mengikat</string>
+    <string name="setting_cur_lang">Cina Sederhana</string>
+    <string name="setting_lang_title">Pilih bahasa</string>
+    <string name="setting_lang_cancel">batalkan</string>
+    <string name="setting_old_psw">Sila masukkan kata laluan asal</string>
+    <string name="setting_new_psw">Sila masukkan kata laluan baru</string>
+    <string name="setting_confirm_new_psw">Sila masukkan kata laluan baru lagi</string>
+    <string name="setting_submit">Hantar</string>
+    <string name="setting_logout">Log keluar</string>
+    <string name="gameme_charge">💰 deposit</string>
+    <string name="gameme_excharge">💳 lukisan</string>
+    <string name="gameme_trans">Putar integral</string>
+    <string name="gameme_refresh">Segar Semula</string>
+    <string name="gameme_refresh_success">Segar Semula berjaya</string>
+    <string name="gameme_charge_hint">Jumlah input</string>
+    <string name="card">Nombor kad bank</string>
+    <string name="bank">Nama Bank</string>
+    <string name="game_banker">Nama Zhuang</string>
+    <string name="game_start_time">Masa permainan bermula</string>
+    <string name="game_room_id">ID bilik</string>
+    <string name="game_bonus_id">ID sampul merah</string>
+    <string name="game_id">ID Permainan</string>
+    <string name="game_banker_bonus">Zhuang Qianbao</string>
+    <string name="game_banker_win">Menang atau kalah</string>
+    <string name="game_bet">Taruhan</string>
+    <string name="game_bet_bonus">Ambil beg.</string>
+    <string name="game_bet_type">Jenis taruhan</string>
+    <string name="game_bet_user_name">用户名</string>
+    <string name="game_bet_win">Menang atau kalah</string>
+    <string name="game_jifen_game">permainan</string>
+    <string name="game_jifen_jifen">integral</string>
+    <string name="online_charge">Muat semula dalam talian</string>
+</resources>
